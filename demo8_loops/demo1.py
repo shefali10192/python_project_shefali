@@ -11,11 +11,19 @@
 #     print(colors[a])
 
 numbers=[45,98,75,65,24,88,74,56,75]
-numbers1=[]
+#numbers1=[]
+# for a in range(0, len(numbers)):
+#     print(numbers[a])
+#
+#     if numbers[a] == 24:
+#         print(a)
+#         break
+
+#print(numbers1)
+
 for a in range(0, len(numbers)):
+    #print(numbers[a])
+
+    if numbers[a] == 24:
+        continue
     print(numbers[a])
-
-    if numbers[a] <= 50:
-        numbers1.append(numbers[a])
-
-print(numbers1)
